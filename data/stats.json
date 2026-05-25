@@ -1,0 +1,37 @@
+{
+  "platforms": [
+    {
+      "name": "鎶栭煶",
+      "icon": "馃幍",
+      "followers": "52.3涓?,
+      "likes": "892.6涓?,
+      "videos": 186,
+      "avgViews": "12.5涓?,
+      "engagement": "4.8%",
+      "url": "https://www.douyin.com/user/"
+    },
+    {
+      "name": "灏忕孩涔?,
+      "icon": "馃摃",
+      "followers": "18.7涓?,
+      "likes": "156.2涓?,
+      "notes": 94,
+      "avgViews": "3.2涓?,
+      "engagement": "6.2%",
+      "url": "https://www.xiaohongshu.com/user/profile/"
+    }
+  ],
+  "brands": [
+    { "name": "浼樿。搴?, "type": "鏈嶉グ", "year": "2025" },
+    { "name": "瀹岀編鏃ヨ", "type": "缇庡", "year": "2025" },
+    { "name": "OPPO", "type": "鏁扮爜", "year": "2026" },
+    { "name": "涓夐】鍗?, "type": "椋熷搧", "year": "2025" },
+    { "name": "钑変笅", "type": "闃叉檼", "year": "2026" },
+    { "name": "缃戞槗涓ラ€?, "type": "鐢熸椿", "year": "2025" }
+  ],
+  "audience": {
+    "femaleRatio": "78%",
+    "ageGroup": "18-28宀?,
+    "topCities": ["鏉窞", "涓婃捣", "鍖椾含", "鎴愰兘", "骞垮窞"]
+  }
+}
