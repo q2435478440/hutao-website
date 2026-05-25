@@ -109,19 +109,55 @@ function renderLooks() {
   const grid = document.getElementById('lookbookGrid');
   const filtered = activeStyle === '全部' ? allLooks : allLooks.filter(l => l.style === activeStyle);
 
-  grid.innerHTML = filtered.map((l, i) => `
-    <div class="look-card reveal reveal-d${Math.min(i % 5 + 1, 5)}">
-      <img class="look-card-image" src="${l.image}" alt="${l.title}" loading="lazy">
+  grid.innerHTML = filtered.map((l, i) => {
+    const hasVideo = l.video && l.video.trim() !== '';
+    const videoEl = hasVideo
+      ? '<video class="look-card-video" src="' + l.video + '" poster="' + l.image + '" preload="metadata" muted loop playsinline></video>'
+      : '<img class="look-card-image" src="' + l.image + '" alt="' + l.title + '" loading="lazy">';
+    const playBtn = hasVideo ? '<div class="look-play-btn">&#9654;</div>' : '';
+    const overlayClass = hasVideo ? 'look-card-overlay look-card-overlay-video' : 'look-card-overlay';
+
+    return `
+    <div class="look-card reveal reveal-d${Math.min(i % 5 + 1, 5)}" data-video="${hasVideo ? 'true' : ''}">
+      ${videoEl}
+      ${playBtn}
       <span class="look-card-badge">${l.style} · ${l.season}</span>
-      <div class="look-card-overlay">
+      <div class="${overlayClass}">
         <div class="look-card-title">${l.title}</div>
         <div class="look-card-desc">${l.description}</div>
-        <div class="look-card-tags">${l.tags.map(t => `<span class="look-card-tag">#${t}</span>`).join('')}</div>
+        <div class="look-card-tags">${l.tags.map(t => '<span class="look-card-tag">#' + t + '</span>').join('')}</div>
       </div>
     </div>
-  `).join('');
+  `;
+  }).join('');
 
   observeReveal();
+
+  grid.querySelectorAll('.look-card[data-video="true"]').forEach(card => {
+    const video = card.querySelector('video');
+    const playBtn = card.querySelector('.look-play-btn');
+    if (!video) return;
+
+    const play = () => { video.play(); if (playBtn) playBtn.style.opacity = '0'; };
+    const pause = () => { video.pause(); if (playBtn) playBtn.style.opacity = '1'; };
+
+    card.addEventListener('click', (e) => {
+      if (e.target.closest('.look-card-overlay')) return;
+      if (video.paused) { play(); } else { pause(); }
+    });
+
+    video.addEventListener('ended', () => pause());
+    video.addEventListener('pause', () => { if (playBtn) playBtn.style.opacity = '1'; });
+    video.addEventListener('play', () => { if (playBtn) playBtn.style.opacity = '0'; });
+  });
+
+  grid.querySelectorAll('video').forEach(v => {
+    v.addEventListener('play', () => {
+      grid.querySelectorAll('video').forEach(other => {
+        if (other !== v && !other.paused) other.pause();
+      });
+    });
+  });
 }
 
 // ============ RENDER TRAVEL ============
