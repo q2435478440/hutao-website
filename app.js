@@ -147,7 +147,7 @@ function renderLooks() {
     const pause = () => { video.pause(); if (playBtn) playBtn.style.opacity = '1'; };
 
     card.addEventListener('click', (e) => {
-      if (e.target.closest('.look-card-overlay')) return;
+      if (e.target.closest('.look-card-tag')) return;
       if (video.paused) { play(); } else { pause(); }
     });
 
