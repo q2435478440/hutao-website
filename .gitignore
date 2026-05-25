@@ -1,0 +1,9 @@
+# 蹇界暐绯荤粺鏂囦欢
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 蹇界暐 node_modules锛堝鏋滄湁锛?node_modules/
+
+# 蹇界暐缂栬緫鍣ㄦ枃浠?.vscode/
+.idea/
