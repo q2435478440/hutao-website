@@ -1,22 +1,22 @@
 {
-  "name": "🌈胡桃",
+  "name": "胡桃",
   "tagline": "你一定要相信人生真的会突然变好",
-  "bio": "你要好好吃饭、睡觉，研究自己喜欢的事，高高兴兴的 🌈一切都会顺利哒 谢谢你的关注❤️",
+  "bio": "你要好好吃饭、睡觉，研究自己喜欢的事，高高兴兴的 一切都会顺利哒 谢谢你的关注",
   "stats": {
     "height": 175,
     "weight": 120,
-    "location": "杭州",
+    "location": "辽宁",
     "label": "穿搭 · 旅行 · 生活"
   },
   "social": [
-    { "platform": "抖音", "icon": "🎵", "url": "https://www.douyin.com/user/", "handle": "@🌈胡桃" },
-    { "platform": "小红书", "icon": "📕", "url": "https://www.xiaohongshu.com/user/profile/", "handle": "@🌈胡桃" },
-    { "platform": "微博", "icon": "📢", "url": "https://weibo.com/", "handle": "@🌈胡桃" },
-    { "platform": "微信", "icon": "💬", "url": "#", "handle": "添加好友请备注" }
+    { "platform": "抖音", "icon": "", "url": "https://v.douyin.com/IO7usHSXjSo/", "handle": "@胡桃" },
+    { "platform": "bilibili", "icon": "", "url": "https://space.bilibili.com/3536997073291285", "handle": "@彩虹胡桃" },
+    { "platform": "微博", "icon": "", "url": "https://weibo.com/", "handle": "@胡桃" },
+    { "platform": "微信", "icon": "", "url": "#", "handle": "添加好友请备注" }
   ],
   "contact": {
-    "email": "hello@hutao.me",
-    "wechat": "hutao_123",
-    "collabNote": "品牌合作/PR 请邮件联系，48小时内回复 💌"
+    "email": "就不告诉你",
+    "wechat": "招财进宝",
+    "collabNote": "品牌合作/PR 请邮件联系，48小时内回复"
   }
 }
