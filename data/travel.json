@@ -1,0 +1,58 @@
+{
+  "trips": [
+    {
+      "id": 1,
+      "title": "澶х悊鐨勪簯璧板緱鐗瑰埆鎱?,
+      "location": "浜戝崡路澶х悊",
+      "date": "2026-03",
+      "description": "鍦ㄦ幢娴疯竟楠戝皬鐢甸┐锛岄鍚硅捣瑁欐憜鐨勯偅涓€鍒伙紝瑙夊緱浜虹敓鐪熷ソ鍟?馃寠",
+      "image": "https://picsum.photos/seed/dali/800/600",
+      "tags": ["娌绘剤", "娲辨捣", "鎱㈢敓娲?]
+    },
+    {
+      "id": 2,
+      "title": "涓滀含琛楀ご绌挎惌鏃ヨ",
+      "location": "鏃ユ湰路涓滀含",
+      "date": "2025-11",
+      "description": "娑╄胺鍗佸瓧璺彛銆佷唬瀹樺北灏忓簵銆佽〃鍙傞亾鍜栧暋鈥斺€斾笢浜湡鐨勫お濂介€涗簡锛?,
+      "image": "https://picsum.photos/seed/tokyo/800/600",
+      "tags": ["鏃ユ湰", "璐墿", "琛楁媿"]
+    },
+    {
+      "id": 3,
+      "title": "涓変簹鐨勯槼鍏夊拰妞板瓙鏍?,
+      "location": "娴峰崡路涓変簹",
+      "date": "2025-07",
+      "description": "澶忓ぉ鐨勬纭墦寮€鏂瑰紡锛氭矙婊┿€佹ぐ瀛愩€佹瘮鍩哄凹 馃ゥ",
+      "image": "https://picsum.photos/seed/sanya/800/600",
+      "tags": ["娴疯竟", "搴﹀亣", "澶忔棩"]
+    },
+    {
+      "id": 4,
+      "title": "鎴愰兘鍚冭荆鎸戞垬",
+      "location": "鍥涘窛路鎴愰兘",
+      "date": "2025-09",
+      "description": "鐏攨銆佷覆涓层€佸厰澶粹€︹€︽垚閮戒笁澶╄儢涓夋枻涓嶆槸寮€鐜╃瑧鐨?馃尪锔?,
+      "image": "https://picsum.photos/seed/chengdu/800/600",
+      "tags": ["缇庨", "鐏攨", "宸濇笣"]
+    },
+    {
+      "id": 5,
+      "title": "闀跨櫧灞辨粦闆垵浣撻獙",
+      "location": "鍚夋灄路闀跨櫧灞?,
+      "date": "2025-12",
+      "description": "绗竴娆℃粦闆憯浜嗗叓娆★紝浣嗛洩鏅湡鐨勫お缇庝簡锛佷笅娆¤繕瑕佹潵 鉀凤笍",
+      "image": "https://picsum.photos/seed/ski/800/600",
+      "tags": ["婊戦洩", "鍐", "鍐掗櫓"]
+    },
+    {
+      "id": 6,
+      "title": "鍘﹂棬鐜矝璺獞琛?,
+      "location": "绂忓缓路鍘﹂棬",
+      "date": "2025-05",
+      "description": "浠庢浘鍘濆灥楠戝埌妞伴瀵紝娴烽鍚逛簡涓€璺紝鑷敱鐨勫懗閬?馃毑",
+      "image": "https://picsum.photos/seed/xiamen/800/600",
+      "tags": ["楠戣", "娴疯竟", "鏂囪壓"]
+    }
+  ]
+}
