@@ -2,23 +2,23 @@
   "platforms": [
     {
       "name": "抖音",
-      "icon": "🎵",
+      "icon": "",
       "followers": "52.3万",
       "likes": "892.6万",
       "videos": 186,
       "avgViews": "12.5万",
       "engagement": "4.8%",
-      "url": "https://www.douyin.com/user/"
+      "url": "https://v.douyin.com/IO7usHSXjSo/"
     },
     {
-      "name": "小红书",
-      "icon": "📕",
+      "name": "bilibili",
+      "icon": "",
       "followers": "18.7万",
       "likes": "156.2万",
       "notes": 94,
       "avgViews": "3.2万",
       "engagement": "6.2%",
-      "url": "https://www.xiaohongshu.com/user/profile/"
+      "url": "https://space.bilibili.com/3536997073291285"
     }
   ],
   "brands": [
